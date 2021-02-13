@@ -795,8 +795,452 @@ const ButtonEncodings = {
     {
       id: 132,
       url:
-        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\(",
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\(",
       encodes: "\\left(",
+    },
+    {
+      id: 133,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large)",
+      encodes: "\\right)",
+    },
+    {
+      id: 134,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\[",
+      encodes: "\\left[",
+    },
+    {
+      id: 135,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large]",
+      encodes: "\\right]",
+    },
+    {
+      id: 136,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\{",
+      encodes: "\\left\\{",
+    },
+    {
+      id: 137,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\}",
+      encodes: "\\right\\}",
+    },
+    {
+      id: 138,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\lfloor",
+      encodes: "\\lfloor",
+    },
+    {
+      id: 139,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\lceil",
+      encodes: "\\lceil",
+    },
+    {
+      id: 140,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rfloor",
+      encodes: "\\rfloor",
+    },
+    {
+      id: 141,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rceil",
+      encodes: "\\rceil",
+    },
+    {
+      id: 142,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\normalsize\\langle",
+      encodes: "\\langle",
+    },
+    {
+      id: 143,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\normalsize\\rangle",
+      encodes: "\\rangle",
+    },
+    {
+      id: 144,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\backslash",
+      encodes: "\\backslash",
+    },
+    {
+      id: 145,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\cap",
+      encodes: "\\cap",
+    },
+    {
+      id: 146,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\cup",
+      encodes: "\\cup",
+    },
+    {
+      id: 147,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\uplus",
+      encodes: "\\uplus",
+    },
+    {
+      id: 148,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\sqcap",
+      encodes: "\\sqcap",
+    },
+    {
+      id: 149,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\sqcup",
+      encodes: "\\sqcup",
+    },
+    {
+      id: 150,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\vee",
+      encodes: "\\vee",
+    },
+    {
+      id: 151,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\wedge",
+      encodes: "\\wedge",
+    },
+    {
+      id: 152,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\wr",
+      encodes: "\\wr",
+    },
+    {
+      id: 153,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftarrow",
+      encodes: "\\leftarrow",
+    },
+    {
+      id: 154,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Leftarrow",
+      encodes: "\\Leftarrow",
+    },
+    {
+      id: 155,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightarrow",
+      encodes: "\\rightarrow",
+    },
+    {
+      id: 156,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Rightarrow",
+      encodes: "\\Rightarrow",
+    },
+    {
+      id: 157,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftrightarrow",
+      encodes: "\\leftrightarrow",
+    },
+    {
+      id: 158,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Leftrightarrow",
+      encodes: "\\Leftrightarrow",
+    },
+    {
+      id: 159,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\mapsto",
+      encodes: "\\mapsto",
+    },
+    {
+      id: 160,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftharpoonup",
+      encodes: "\\leftharpoonup",
+    },
+    {
+      id: 161,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftharpoondown",
+      encodes: "\\leftharpoondown",
+    },
+    {
+      id: 162,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightleftharpoons",
+      encodes: "\\rightleftharpoons",
+    },
+    {
+      id: 163,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftrightharpoons",
+      encodes: "\\leftrightharpoons",
+    },
+    {
+      id: 164,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\hookrightarrow",
+      encodes: "\\hookrightarrow",
+    },
+    {
+      id: 165,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightharpoonup",
+      encodes: "\\rightharpoonup",
+    },
+    {
+      id: 166,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\uparrow",
+      encodes: "\\uparrow",
+    },
+    {
+      id: 167,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Uparrow",
+      encodes: "\\Uparrow",
+    },
+    {
+      id: 168,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\downarrow",
+      encodes: "\\downarrow",
+    },
+    {
+      id: 169,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Downarrow",
+      encodes: "\\Downarrow",
+    },
+    {
+      id: 170,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\updownarrow",
+      encodes: "\\updownarrow",
+    },
+    {
+      id: 171,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Updownarrow",
+      encodes: "\\Updownarrow",
+    },
+    {
+      id: 172,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftleftarrows",
+      encodes: "\\leftleftarrows",
+    },
+    {
+      id: 173,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightrightarrows",
+      encodes: "\\rightrightarrows",
+    },
+    {
+      id: 174,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftrightarrows",
+      encodes: "\\leftrightarrows",
+    },
+    {
+      id: 175,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightleftarrows",
+      encodes: "\\rightleftarrows",
+    },
+    {
+      id: 176,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Lleftarrow",
+      encodes: "\\Lleftarrow",
+    },
+    {
+      id: 177,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Rrightarrow",
+      encodes: "\\Rrightarrow",
+    },
+    {
+      id: 178,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\twoheadleftarrow",
+      encodes: "\\twoheadleftarrow",
+    },
+    {
+      id: 179,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\twoheadrightarrow",
+      encodes: "\\twoheadrightarrow",
+    },
+    {
+      id: 180,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftarrowtail",
+      encodes: "\\leftarrowtail",
+    },
+    {
+      id: 181,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightarrowtail",
+      encodes: "\\rightarrowtail",
+    },
+    {
+      id: 182,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\looparrowleft",
+      encodes: "\\looparrowleft",
+    },
+    {
+      id: 183,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\looparrowright",
+      encodes: "\\looparrowright",
+    },
+    {
+      id: 184,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\curvearrowleft",
+      encodes: "\\curvearrowleft",
+    },
+    {
+      id: 185,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\curvearrowright",
+      encodes: "\\curvearrowright",
+    },
+    {
+      id: 186,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\circlearrowleft",
+      encodes: "\\circlearrowleft",
+    },
+    {
+      id: 187,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\circlearrowright",
+      encodes: "\\circlearrowright",
+    },
+    {
+      id: 188,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\dashleftarrow",
+      encodes: "\\dashleftarrow",
+    },
+    {
+      id: 189,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\dashrightarrow",
+      encodes: "\\dashrightarrow",
+    },
+    {
+      id: 190,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Lsh",
+      encodes: "\\Lsh",
+    },
+    {
+      id: 191,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\Rsh",
+      encodes: "\\Rsh",
+    },
+    {
+      id: 192,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\upuparrows",
+      encodes: "\\upuparrows",
+    },
+    {
+      id: 193,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\downdownarrows",
+      encodes: "\\downdownarrows",
+    },
+    {
+      id: 194,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\upharpoonleft",
+      encodes: "\\upharpoonleft",
+    },
+    {
+      id: 195,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\upharpoonright",
+      encodes: "\\upharpoonright",
+    },
+    {
+      id: 196,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\downharpoonleft",
+      encodes: "\\downharpoonleft",
+    },
+    {
+      id: 197,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\downharpoonright",
+      encodes: "\\downharpoonright",
+    },
+    {
+      id: 198,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\rightsquigarrow",
+      encodes: "\\rightsquigarrow",
+    },
+    {
+      id: 199,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\leftrightsquigarrow",
+      encodes: "\\leftrightsquigarrow",
+    },
+    {
+      id: 200,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\multimap",
+      encodes: "\\multimap",
+    },
+    {
+      id: 201,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nleftarrow",
+      encodes: "\\nleftarrow",
+    },
+    {
+      id: 202,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nrightarrow",
+      encodes: "\\nrightarrow",
+    },
+    {
+      id: 203,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nLeftarrow",
+      encodes: "\\nLeftarrow",
+    },
+    {
+      id: 204,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nRightarrow",
+      encodes: "\\nRightarrow",
+    },
+    {
+      id: 205,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nleftrightarrow",
+      encodes: "\\nleftrightarrow",
+    },
+    {
+      id: 206,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\nLeftrightarrow",
+      encodes: "\\nLeftrightarrow",
     },
   ],
 };
