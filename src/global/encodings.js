@@ -525,6 +525,280 @@ const ButtonEncodings = {
       encodes: "\\bmod",
     },
   ],
+  logic: [
+    {
+      id: 88,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\neq",
+      encodes: "\\neq",
+    },
+    {
+      id: 89,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\leq",
+      encodes: "\\leq",
+    },
+    {
+      id: 90,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\geq",
+      encodes: "\\geq",
+    },
+    {
+      id: 91,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\sim",
+      encodes: "\\sim",
+    },
+    {
+      id: 92,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\approx",
+      encodes: "\\approx",
+    },
+    {
+      id: 93,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\cong",
+      encodes: "\\cong",
+    },
+    {
+      id: 94,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\equiv",
+      encodes: "\\equiv",
+    },
+    {
+      id: 95,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\propto",
+      encodes: "\\propto",
+    },
+    {
+      id: 96,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\ll",
+      encodes: "\\ll",
+    },
+    {
+      id: 97,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\gg",
+      encodes: "\\gg",
+    },
+    {
+      id: 98,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\in",
+      encodes: "\\in",
+    },
+    {
+      id: 99,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\subset",
+      encodes: "\\subset",
+    },
+    {
+      id: 100,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\subseteq",
+      encodes: "\\subseteq",
+    },
+    {
+      id: 101,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\prec",
+      encodes: "\\prec",
+    },
+    {
+      id: 102,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\preceq",
+      encodes: "\\preceq",
+    },
+    {
+      id: 103,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\simeq",
+      encodes: "\\simeq",
+    },
+    {
+      id: 104,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\asymp",
+      encodes: "\\asymp",
+    },
+    {
+      id: 105,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\doteq",
+      encodes: "\\doteq",
+    },
+    {
+      id: 106,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\succ",
+      encodes: "\\succ",
+    },
+    {
+      id: 107,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\succeq",
+      encodes: "\\succeq",
+    },
+    {
+      id: 108,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\sqsubseteq",
+      encodes: "\\sqsubseteq",
+    },
+    {
+      id: 109,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\sqsupseteq",
+      encodes: "\\sqsupseteq",
+    },
+    {
+      id: 110,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\ni",
+      encodes: "\\ni",
+    },
+    {
+      id: 111,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\models",
+      encodes: "\\models",
+    },
+    {
+      id: 112,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\vdash",
+      encodes: "\\vdash",
+    },
+    {
+      id: 113,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\dashv",
+      encodes: "\\dashv",
+    },
+    {
+      id: 114,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\perp",
+      encodes: "\\perp",
+    },
+    {
+      id: 115,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\mid",
+      encodes: "\\mid",
+    },
+    {
+      id: 116,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\parallel",
+      encodes: "\\parallel",
+    },
+    {
+      id: 117,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\smile",
+      encodes: "\\smile",
+    },
+    {
+      id: 118,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\frown",
+      encodes: "\\frown",
+    },
+    {
+      id: 119,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\bowtie",
+      encodes: "\\bowtie",
+    },
+    {
+      id: 120,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\unlhd",
+      encodes: "\\unlhd",
+    },
+    {
+      id: 121,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\unrhd",
+      encodes: "\\unrhd",
+    },
+    {
+      id: 122,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\hat{a}",
+      encodes: "\\hat{a}",
+    },
+    {
+      id: 123,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\check{a}",
+      encodes: "\\check{a}",
+    },
+    {
+      id: 124,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\breve{a}",
+      encodes: "\\breve{a}",
+    },
+    {
+      id: 125,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\acute{a}",
+      encodes: "\\acute{a}",
+    },
+    {
+      id: 126,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\grave{a}",
+      encodes: "\\grave{a}",
+    },
+    {
+      id: 127,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\tilde{a}",
+      encodes: "\\tilde{a}",
+    },
+    {
+      id: 128,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\bar{a}",
+      encodes: "\\bar{a}",
+    },
+    {
+      id: 129,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\vec{a}",
+      encodes: "\\vec{a}",
+    },
+    {
+      id: 130,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\dot{a}",
+      encodes: "\\dot{a}",
+    },
+    {
+      id: 131,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\ddot{a}",
+      encodes: "\\ddot{a}",
+    },
+  ],
+  arrow: [
+    {
+      id: 132,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\color{white}\\large\\(",
+      encodes: "\\left(",
+    },
+  ],
 };
 
 export default ButtonEncodings;

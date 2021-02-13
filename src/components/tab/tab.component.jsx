@@ -143,10 +143,16 @@ export default function NavTabs({ handleClick }) {
           />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <BasicButtonGroup />
+          <BasicButtonGroup
+            handleClick={handleClick}
+            buttonData={ButtonEncodings.logic}
+          />
         </TabPanel>
         <TabPanel value={value} index={3}>
-          <BasicButtonGroup />
+          <BasicButtonGroup
+            handleClick={handleClick}
+            buttonData={ButtonEncodings.arrow}
+          />
         </TabPanel>
         <TabPanel value={value} index={4}>
           <BasicButtonGroup />
