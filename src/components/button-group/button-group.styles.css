@@ -1,0 +1,15 @@
+.MuiBox-root {
+  padding: 19px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.MuiBox-root-* {
+  padding: 15px !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.MuiButton-root {
+  height: 36.47px;
+}
