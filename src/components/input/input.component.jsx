@@ -44,4 +44,4 @@ const InputField = React.forwardRef(
   }
 );
 
-export default InputField;
+export default React.memo(InputField);

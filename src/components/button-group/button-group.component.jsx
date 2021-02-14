@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function BasicButtonGroup({ buttonData, handleClick }) {
+function BasicButtonGroup({ buttonData, handleClick }) {
   const classes = useStyles();
 
   return (
@@ -45,7 +45,13 @@ export default function BasicButtonGroup({ buttonData, handleClick }) {
                         key={innerEncoding.id}
                         onClick={() => handleClick(innerEncoding.encodes)}
                       >
-                        <img alt="symbol" src={innerEncoding.url} />
+                        <span className="image-container">
+                          <img
+                            alt="symbol"
+                            src={innerEncoding.url}
+                            className={innerEncoding.class}
+                          />
+                        </span>
                       </Button>
                     </Tooltip>
                   );
@@ -60,3 +66,5 @@ export default function BasicButtonGroup({ buttonData, handleClick }) {
     </div>
   );
 }
+
+export default React.memo(BasicButtonGroup);

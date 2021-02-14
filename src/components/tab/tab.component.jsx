@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function NavTabs({ handleClick }) {
+function NavTabs({ handleClick }) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -155,7 +155,10 @@ export default function NavTabs({ handleClick }) {
           />
         </TabPanel>
         <TabPanel value={value} index={4}>
-          <BasicButtonGroup />
+          <BasicButtonGroup
+            handleClick={handleClick}
+            buttonData={ButtonEncodings.symbol}
+          />
         </TabPanel>
         <TabPanel value={value} index={5}>
           <BasicButtonGroup />
@@ -164,3 +167,5 @@ export default function NavTabs({ handleClick }) {
     </div>
   );
 }
+
+export default React.memo(NavTabs);

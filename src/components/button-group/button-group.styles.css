@@ -13,3 +13,74 @@
 .MuiButton-root {
   height: 36.47px;
 }
+
+/* Image centering */
+
+.ml_-2 {
+  margin-left: -2px;
+}
+
+.ml_-9 {
+  margin-left: -9px;
+}
+
+.ml_-12 {
+  margin-left: -12px;
+}
+
+.mr_-2 {
+  margin-right: -2px;
+}
+
+.mr_-3 {
+  margin-right: -3px;
+}
+
+.mr_-5 {
+  margin-right: -5px;
+}
+
+.mr_-6 {
+  margin-right: -6px;
+}
+
+.mr_-8 {
+  margin-right: -8px;
+}
+
+.mr_-12 {
+  margin-right: -12px;
+}
+
+.mr_-14 {
+  margin-right: -14px;
+}
+
+.mr_-15 {
+  margin-right: -15px;
+}
+
+.mr_-16 {
+  margin-right: -16px;
+}
+
+.mr_-17 {
+  margin-right: -17px;
+}
+
+.mr_-20 {
+  margin-right: -20px;
+}
+
+.exists {
+  margin-right: -22px;
+}
+
+.surd {
+  margin-right: -10px;
+  filter: drop-shadow(0px 0px 0px white);
+}
+
+.bf {
+  filter: drop-shadow(0px 0px 0px white);
+}

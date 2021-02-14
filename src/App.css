@@ -64,6 +64,7 @@ a:focus {
 
 .logo-center {
   color: lightgray;
+  filter: drop-shadow(2px 4px 6px black);
   box-shadow: 0 0 10px white;
   border-radius: 50%;
   animation: spin 20s ease-in-out infinite alternate;

@@ -31,7 +31,6 @@ class App extends React.Component {
     let newExpression;
 
     clearTimeout(this.timeout);
-    this.changeHandler();
     console.log("highlight start: " + this.state.highlightStart);
     console.log("highlight end: " + this.state.highlightEnd);
 
@@ -76,12 +75,12 @@ class App extends React.Component {
   };
 
   changeHandler = (event) => {
-    if (event) {
-      this.setState({
-        expression: event.target.value,
-        /*userCursorPosition: this.textArea.current.selectionEnd,*/
-      });
-    }
+    this.setState({
+      expression: event.target.value,
+      userCursorPosition: this.textArea.current.selectionStart,
+      highlightStart: this.textArea.current.selectionStart,
+      highlightEnd: this.textArea.current.selectionEnd,
+    });
   };
 
   setCustomCursorPosition = () => {
