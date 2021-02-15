@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![formula](https://render.githubusercontent.com/render/math?math=\huge\color{olive}{\sqrt[n]{ab}})
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
