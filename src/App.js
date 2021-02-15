@@ -31,8 +31,6 @@ class App extends React.Component {
     let newExpression;
 
     clearTimeout(this.timeout);
-    console.log("highlight start: " + this.state.highlightStart);
-    console.log("highlight end: " + this.state.highlightEnd);
 
     if (this.state.highlightEnd - this.state.highlightStart > 0) {
       beforeCursor = this.state.expression.slice(0, this.state.highlightStart);
@@ -48,8 +46,6 @@ class App extends React.Component {
       afterCursor = this.state.expression.slice(this.state.userCursorPosition);
     }
     newExpression = beforeCursor + encoding + afterCursor;
-    console.log(beforeCursor);
-    console.log(afterCursor);
 
     this.setState(
       {
@@ -57,17 +53,12 @@ class App extends React.Component {
         expression: newExpression,
       },
       (state) => {
-        console.log(this.state.expression);
         this.timout = setTimeout(() => {
           this.textArea.current.focus();
 
           this.textArea.current.selectionStart = this.textArea.current.selectionEnd = this.state.expression.length;
           if (this.state.manualCursor)
             this.textArea.current.selectionStart = this.textArea.current.selectionEnd = this.state.userCursorPosition;
-          console.log("encoding length:" + encoding.length);
-          console.log(
-            "current cursor position:" + this.state.userCursorPosition
-          );
         }, 200);
       }
     );
@@ -116,23 +107,14 @@ class App extends React.Component {
       case "Backspace":
       case "Right": // IE/Edge specific value
       case "ArrowRight":
-        console.log("DownKey");
-        console.log(this.textArea.current.selectionStart);
-        this.setState(
-          {
-            userCursorPosition: this.textArea.current.selectionStart,
-            highlightStart: this.textArea.current.selectionStart,
-            highlightEnd: this.textArea.current.selectionEnd,
-            manualCursor: true,
-          },
-          () => {
-            console.log(this.textArea.current.selectionStart);
-          }
-        );
+        this.setState({
+          userCursorPosition: this.textArea.current.selectionStart,
+          highlightStart: this.textArea.current.selectionStart,
+          highlightEnd: this.textArea.current.selectionEnd,
+          manualCursor: true,
+        });
         break;
       case "Enter":
-        console.log("EnterKey");
-        console.log(this.textArea.current.selectionStart);
         this.setState({
           userCursorPosition: 1000000000000,
           manualCursor: false,
