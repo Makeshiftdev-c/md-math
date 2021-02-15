@@ -78,6 +78,7 @@ const useStyles = makeStyles((theme) => ({
 function NavTabs({ handleClick }) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
+  const tabData = { ...ButtonEncodings };
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -133,37 +134,37 @@ function NavTabs({ handleClick }) {
         <TabPanel value={value} index={0}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.math}
+            buttonData={tabData.math}
           />
         </TabPanel>
         <TabPanel value={value} index={1}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.gkandfun}
+            buttonData={tabData.trig}
           />
         </TabPanel>
         <TabPanel value={value} index={2}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.logic}
+            buttonData={tabData.logic}
           />
         </TabPanel>
         <TabPanel value={value} index={3}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.arrow}
+            buttonData={tabData.arrow}
           />
         </TabPanel>
         <TabPanel value={value} index={4}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.symbol}
+            buttonData={tabData.symbol}
           />
         </TabPanel>
         <TabPanel value={value} index={5}>
           <BasicButtonGroup
             handleClick={handleClick}
-            buttonData={ButtonEncodings.format}
+            buttonData={tabData.format}
           />
         </TabPanel>
       </div>

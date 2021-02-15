@@ -22,6 +22,8 @@ const useStyles = makeStyles((theme) => ({
 function BasicButtonGroup({ buttonData, handleClick }) {
   const classes = useStyles();
 
+  const clickhandler = (encoding) => handleClick(encoding);
+
   const buttonsGroups = buttonData.map((___, index) => {
     if (index === 0 || index % 6 === 0) {
       return (
@@ -39,10 +41,7 @@ function BasicButtonGroup({ buttonData, handleClick }) {
                   TransitionComponent={Zoom}
                   title={innerEncoding.encodes}
                 >
-                  <Button
-                    key={innerEncoding.id}
-                    onClick={() => handleClick(innerEncoding.encodes)}
-                  >
+                  <Button key={innerEncoding.id} onClick={clickhandler}>
                     <span className="image-container">
                       <img
                         alt="symbol"

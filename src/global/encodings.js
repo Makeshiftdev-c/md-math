@@ -253,7 +253,7 @@ const ButtonEncodings = {
       class: "mr_-6 bf",
     },
   ],
-  gkandfun: [
+  trig: [
     {
       id: 39,
       url:
