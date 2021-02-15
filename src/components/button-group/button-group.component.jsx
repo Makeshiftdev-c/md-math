@@ -22,49 +22,47 @@ const useStyles = makeStyles((theme) => ({
 function BasicButtonGroup({ buttonData, handleClick }) {
   const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
-      {buttonData.map((___, index) => {
-        if (index === 0 || index % 6 === 0) {
-          return (
-            <ButtonGroup
-              key={uuidv4()}
-              color="primary"
-              aria-label="outlined primary button group"
-              fullWidth={true}
-            >
-              {buttonData.map((innerEncoding, innerIndex) => {
-                if (innerIndex >= index && innerIndex <= index + 5) {
-                  return (
-                    <Tooltip
-                      key={uuidv4()}
-                      TransitionComponent={Zoom}
-                      title={innerEncoding.encodes}
-                    >
-                      <Button
-                        key={innerEncoding.id}
-                        onClick={() => handleClick(innerEncoding.encodes)}
-                      >
-                        <span className="image-container">
-                          <img
-                            alt="symbol"
-                            src={innerEncoding.url}
-                            className={innerEncoding.class}
-                          />
-                        </span>
-                      </Button>
-                    </Tooltip>
-                  );
-                }
-                return null;
-              })}
-            </ButtonGroup>
-          );
-        }
-        return null;
-      })}
-    </div>
-  );
+  const buttonsGroups = buttonData.map((___, index) => {
+    if (index === 0 || index % 6 === 0) {
+      return (
+        <ButtonGroup
+          key={uuidv4()}
+          color="primary"
+          aria-label="outlined primary button group"
+          fullWidth={true}
+        >
+          {buttonData.map((innerEncoding, innerIndex) => {
+            if (innerIndex >= index && innerIndex <= index + 5) {
+              return (
+                <Tooltip
+                  key={uuidv4()}
+                  TransitionComponent={Zoom}
+                  title={innerEncoding.encodes}
+                >
+                  <Button
+                    key={innerEncoding.id}
+                    onClick={() => handleClick(innerEncoding.encodes)}
+                  >
+                    <span className="image-container">
+                      <img
+                        alt="symbol"
+                        src={innerEncoding.url}
+                        className={innerEncoding.class}
+                      />
+                    </span>
+                  </Button>
+                </Tooltip>
+              );
+            }
+            return null;
+          })}
+        </ButtonGroup>
+      );
+    }
+    return null;
+  });
+
+  return <div className={classes.root}>{buttonsGroups}</div>;
 }
 
 export default React.memo(BasicButtonGroup);

@@ -1768,6 +1768,183 @@ const ButtonEncodings = {
       class: "mr_-2",
     },
   ],
+  format: [
+    {
+      id: 286,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}aqua",
+      encodes: "\\color{aqua}",
+      class: "aqua mb_-1 mr_-3",
+    },
+    {
+      id: 287,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}black",
+      encodes: "\\color{black}",
+      class: "black mt_-6",
+    },
+    {
+      id: 288,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}blue",
+      encodes: "\\color{blue}",
+      class: "blue mt_-6",
+    },
+    {
+      id: 289,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}fuchsia",
+      encodes: "\\color{gray}",
+      class: "fuchsia",
+    },
+    {
+      id: 290,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}gray",
+      encodes: "\\color{gray}",
+      class: "gray mb_-1",
+    },
+    {
+      id: 291,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}green",
+      encodes: "\\color{green}",
+      class: "green mb_-1",
+    },
+    {
+      id: 292,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}lime",
+      encodes: "\\color{lime}",
+      class: "lime mt_-4 mr_-4",
+    },
+    {
+      id: 293,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}maroon",
+      encodes: "\\color{maroon}",
+      class: "maroon",
+    },
+    {
+      id: 294,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}navy",
+      encodes: "\\color{navy}",
+      class: "navy mb_-3",
+    },
+    {
+      id: 295,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}olive",
+      encodes: "\\color{olive}",
+      class: "olive mt_-4",
+    },
+    {
+      id: 296,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}orange",
+      encodes: "\\color{orange}",
+      class: "orange mb_-3",
+    },
+    {
+      id: 297,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}purple",
+      encodes: "\\color{purple}",
+      class: "purple mt_-2",
+    },
+    {
+      id: 298,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}red",
+      encodes: "\\color{red}",
+      class: "red mt_-4",
+    },
+    {
+      id: 299,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}silver",
+      encodes: "\\color{silver}",
+      class: "silver mt_-5",
+    },
+    {
+      id: 300,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}teal",
+      encodes: "\\color{teal}",
+      class: "teal mt_-4",
+    },
+    {
+      id: 301,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}yellow",
+      encodes: "\\color{yellow}",
+      class: "yellow",
+    },
+    {
+      id: 302,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\bf\\color{white}bold",
+      encodes: "\\bf ",
+      class: "mt_-3",
+    },
+    {
+      id: 303,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\it\\color{white}italic",
+      encodes: "\\it ",
+      class: "mt_-4",
+    },
+    {
+      id: 304,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\tt\\color{white}truetype",
+      encodes: "\\tt ",
+      class: "mr_-6",
+    },
+    {
+      id: 305,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\normalsize\\bf\\color{white}tiny",
+      encodes: "\\tiny ",
+      class: "mt_-3",
+    },
+    {
+      id: 306,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\huge\\scriptsize\\color{white}scriptsize",
+      encodes: "\\scriptsize ",
+      class: "mt_-2",
+    },
+    {
+      id: 307,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\normalsize\\bf\\color{white}small",
+      encodes: "\\small ",
+      class: "mt_-5",
+    },
+    {
+      id: 308,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\Large\\color{white}normalsize",
+      encodes: "\\normalsize ",
+      class: "mt_-5 mr_-4",
+    },
+    {
+      id: 209,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\huge\\color{white}large",
+      encodes: "\\large ",
+      class: "mb_-3",
+    },
+    {
+      id: 310,
+      url:
+        "https://render.githubusercontent.com/render/math?math=\\huge\\color{white}huge",
+      encodes: "\\huge ",
+      class: "mb_-2",
+    },
+  ],
 };
 
 export default ButtonEncodings;

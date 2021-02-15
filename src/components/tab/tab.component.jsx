@@ -161,7 +161,10 @@ function NavTabs({ handleClick }) {
           />
         </TabPanel>
         <TabPanel value={value} index={5}>
-          <BasicButtonGroup />
+          <BasicButtonGroup
+            handleClick={handleClick}
+            buttonData={ButtonEncodings.format}
+          />
         </TabPanel>
       </div>
     </div>

@@ -14,10 +14,14 @@
   height: 36.47px;
 }
 
-/* Image centering */
+/* Button image centering and styling */
 
 .ml_-2 {
   margin-left: -2px;
+}
+
+.ml_-5 {
+  margin-left: -5px;
 }
 
 .ml_-9 {
@@ -34,6 +38,10 @@
 
 .mr_-3 {
   margin-right: -3px;
+}
+
+.mr_-4 {
+  margin-right: -4px;
 }
 
 .mr_-5 {
@@ -72,6 +80,38 @@
   margin-right: -20px;
 }
 
+.mt_-2 {
+  margin-top: -2px;
+}
+
+.mt_-3 {
+  margin-top: -3px;
+}
+
+.mt_-4 {
+  margin-top: -4px;
+}
+
+.mt_-5 {
+  margin-top: -5px;
+}
+
+.mt_-6 {
+  margin-top: -6px;
+}
+
+.mb_-1 {
+  margin-bottom: -1px;
+}
+
+.mb_-2 {
+  margin-bottom: -2px;
+}
+
+.mb_-3 {
+  margin-bottom: -3px;
+}
+
 .exists {
   margin-right: -22px;
 }
@@ -83,4 +123,68 @@
 
 .bf {
   filter: drop-shadow(0px 0px 0px white);
+}
+
+.aqua {
+  filter: drop-shadow(0 0 6px aqua);
+}
+
+.black {
+  filter: drop-shadow(0 0 6px black);
+}
+
+.blue {
+  filter: drop-shadow(0 0 6px blue);
+}
+
+.fuchsia {
+  filter: drop-shadow(0 0 6px fuchsia);
+}
+
+.gray {
+  filter: drop-shadow(0 0 6px gray);
+}
+
+.green {
+  filter: drop-shadow(0 0 6px green);
+}
+
+.lime {
+  filter: drop-shadow(0 0 6px lime);
+}
+
+.maroon {
+  filter: drop-shadow(0 0 6px maroon);
+}
+
+.navy {
+  filter: drop-shadow(0 0 6px navy);
+}
+
+.olive {
+  filter: drop-shadow(0 0 6px olive);
+}
+
+.orange {
+  filter: drop-shadow(0 0 6px orange);
+}
+
+.purple {
+  filter: drop-shadow(0 0 6px purple);
+}
+
+.red {
+  filter: drop-shadow(0 0 6px red);
+}
+
+.silver {
+  filter: drop-shadow(0 0 6px silver);
+}
+
+.teal {
+  filter: drop-shadow(0 0 6px teal);
+}
+
+.yellow {
+  filter: drop-shadow(0 0 6px yellow);
 }

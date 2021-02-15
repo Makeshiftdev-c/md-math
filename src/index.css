@@ -22,7 +22,7 @@ code {
 #root,
 #root > div {
   height: fit-content;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 @media (max-width: 1000px) {
