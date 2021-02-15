@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![formula](https://render.githubusercontent.com/render/math?math=\huge\color{purple}{\sqrt[2]{ab}}%20\color{lime}\equiv%20\color{aqua}{%20\left(ab\right)^{\frac{1}{2}}%20}%20\color{lime}\equiv%20\color{yellow}{%20a^{\frac{1}{2}}%20\cdot%20b^{\frac{1}{2}}%20})
+![formula](https://render.githubusercontent.com/render/math?math=\huge\color{purple}{\sqrt[2]{ab}}%20\color{red}\equiv%20\color{aqua}{%20\left(ab\right)^{\frac{1}{2}}%20}%20\color{lime}\equiv%20\color{yellow}{%20a^{\frac{1}{2}}%20\cdot%20b^{\frac{1}{2}}%20})
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
