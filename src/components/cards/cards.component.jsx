@@ -14,7 +14,10 @@ function Alert(props) {
 
 const Cards = ({ expression }) => {
   //data-y stuff
-  const queryString = expression.replace(/\s+/g, "%20").replace(/&+/g, "%26");
+  const queryString = expression
+    .replace(/\s+/g, "%20")
+    .replace(/&+/g, "%26")
+    .replace(/\++/g, "%2B");
   const markdown =
     "![formula](https://render.githubusercontent.com/render/math?math=" +
     String.raw`${queryString})`;
