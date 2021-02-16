@@ -45,7 +45,7 @@ function BasicButtonGroup({ buttonData, handleClick }) {
                   >
                     <span className="image-container">
                       <img
-                        alt="symbol"
+                        alt={innerEncoding.alt || innerEncoding.encodes}
                         src={innerEncoding.url}
                         className={innerEncoding.class}
                       />

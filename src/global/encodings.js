@@ -5,36 +5,42 @@ const ButtonEncodings = {
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\times",
       encodes: "\\times",
+      alt: "times",
     },
     {
       id: 2,
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\div",
       encodes: "\\div",
+      alt: "divide",
     },
     {
       id: 3,
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\pm",
       encodes: "\\pm",
+      alt: "plus or minus",
     },
     {
       id: 4,
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\mp",
       encodes: "\\mp",
+      alt: "minus or plus",
     },
     {
       id: 5,
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\cdot",
       encodes: "\\cdot",
+      alt: "dot product",
     },
     {
       id: 6,
       url:
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\huge\\star",
       encodes: "\\star",
+      alt: "star",
     },
     {
       id: 7,
@@ -42,6 +48,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\sqrt{ab}",
       encodes: "\\sqrt{ab}",
       class: "ml_-12 bf",
+      alt: "square root",
     },
     {
       id: 8,
@@ -49,6 +56,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\sqrt[n]{ab}",
       encodes: "\\sqrt[n]{ab}",
       class: "bf",
+      alt: "n root",
     },
     {
       id: 9,
@@ -56,6 +64,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\log_{a}{b}",
       encodes: "\\log_{a}{b}",
       class: "bf",
+      alt: "base a log",
     },
     {
       id: 10,
@@ -63,6 +72,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\lg{ab}",
       encodes: "\\lg{ab}",
       class: "bf",
+      alt: "base 10 log",
     },
     {
       id: 11,
@@ -70,6 +80,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\a^{b}",
       encodes: " a^{b} ",
       class: "mr_-16",
+      alt: "a power b",
     },
     {
       id: 12,
@@ -77,6 +88,7 @@ const ButtonEncodings = {
         "https://render.githubusercontent.com/render/math?math=\\color{white}\\Large\\a_{b}",
       encodes: " a_{b} ",
       class: "mr_-16",
+      alt: "a base b",
     },
     {
       id: 13,
